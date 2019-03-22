@@ -10,11 +10,6 @@ import { ProtegidaComponent } from './components/protegida/protegida.component';
 // Rutas
 import { APPROUTING } from "./app.routes";
 
-// Servicios
-import { AuthService } from './services/auth.service';
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +22,7 @@ import { AuthService } from './services/auth.service';
     BrowserModule,
     APPROUTING
   ],
-  providers: [AuthService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
